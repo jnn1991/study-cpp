@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#include <vector>
 using std::cout;
 using std::endl;
 class String
@@ -147,7 +148,26 @@ std::ostream &operator<<(std::ostream &os, const String &s)
 
 std::istream &operator>>(std::istream &is, String &s)
 {
-    is>>s._pstr;
+#if 0
+    delete [] s._pstr;
+    char buff[65536] = {0};//栈空间
+    is>>buff;
+
+    s._pstr = new char[strlen(buff)+1]();
+    strcpy(s._pstr,buff);
+    return is;
+#endif
+    delete [] s._pstr;
+    std::vector<char> buff;
+    char ch;
+    while((ch=is.get())!='\n')
+    {
+        buff.push_back(ch);
+    }
+
+    int len = buff.size();
+    s._pstr = new char[len + 1]();
+    strcpy(s._pstr,&buff[0]);
     return is;
 }
 

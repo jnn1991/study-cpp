@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLUE	include/func.h	/^    BLUE,$/;"	e	enum:Color
+Color	include/func.h	/^enum Color{$/;"	g
+DRAGON_TYPE	include/func.h	/^    DRAGON_TYPE,$/;"	e	enum:WarriorType
+GameConfig	include/Gameconfig.h	/^    GameConfig() :_currentGroupId(0){   cout << "GameConfig()"<< endl;}$/;"	f	class:warcraft::GameConfig
+GameConfig	include/Gameconfig.h	/^class GameConfig$/;"	c	namespace:warcraft
+GameTime	include/GameTime.h	/^    GameTime(size_t hour = 0, size_t minute = 0)$/;"	f	class:warcraft::GameTime
+GameTime	include/GameTime.h	/^class GameTime$/;"	c	namespace:warcraft
+ICEMAN_TYPE	include/func.h	/^    ICEMAN_TYPE,$/;"	e	enum:WarriorType
+InitData	include/Gameconfig.h	/^    struct InitData$/;"	s	class:warcraft::GameConfig
+LION_TYPE	include/func.h	/^    LION_TYPE,$/;"	e	enum:WarriorType
+NINJA_TYPE	include/func.h	/^    NINJA_TYPE,$/;"	e	enum:WarriorType
+NOTSET	include/func.h	/^    NOTSET$/;"	e	enum:Color
+RED	include/func.h	/^    RED,$/;"	e	enum:Color
+WOLF_TYPE	include/func.h	/^    WOLF_TYPE$/;"	e	enum:WarriorType
+WarriorType	include/func.h	/^enum WarriorType$/;"	g
+_cityCount	include/Gameconfig.h	/^        size_t _cityCount;$/;"	m	struct:warcraft::GameConfig::InitData
+_currentGroupId	include/Gameconfig.h	/^    size_t _currentGroupId;\/\/当前正在测试的一组数据$/;"	m	class:warcraft::GameConfig
+_groups	include/Gameconfig.h	/^    vector<InitData> _groups;\/\/N组数据$/;"	m	class:warcraft::GameConfig
+_hour	include/GameTime.h	/^    size_t _hour;$/;"	m	class:warcraft::GameTime
+_initAttacks	include/Gameconfig.h	/^        map<WarriorType,size_t> _initAttacks;$/;"	m	struct:warcraft::GameConfig::InitData
+_initElements	include/Gameconfig.h	/^        size_t _initElements;$/;"	m	struct:warcraft::GameConfig::InitData
+_initLifes	include/Gameconfig.h	/^        map<WarriorType,size_t> _initLifes;$/;"	m	struct:warcraft::GameConfig::InitData
+_initWarriorOrder	include/Gameconfig.h	/^    vector<WarriorType> _initWarriorOrder;\/\/输入时武士的生命值和攻击力设置顺序$/;"	m	class:warcraft::GameConfig
+_minute	include/GameTime.h	/^    size_t _minute;$/;"	m	class:warcraft::GameTime
+_minutes	include/Gameconfig.h	/^        size_t _minutes;$/;"	m	struct:warcraft::GameConfig::InitData
+_pInstance	include/GameTime.h	/^    static GameTime * _pInstance;$/;"	m	class:warcraft::GameTime
+_pInstance	include/Gameconfig.h	/^    static GameConfig * _pInstance;$/;"	m	class:warcraft::GameConfig
+currentGroupId	include/Gameconfig.h	/^    size_t currentGroupId() const {    return _currentGroupId;}$/;"	f	class:warcraft::GameConfig
+func	include/func.h	/^    func() {}$/;"	f	class:func
+func	include/func.h	/^class func {$/;"	c
+groups	include/Gameconfig.h	/^    size_t groups() const { return _groups.size();  }$/;"	f	class:warcraft::GameConfig
+nextGropId	include/Gameconfig.h	/^    void nextGropId() { ++_currentGroupId; }\/\/测试下一组数据$/;"	f	class:warcraft::GameConfig
+reset	include/GameTime.h	/^    void reset() {  _hour = 0; _minute = 0;}$/;"	f	class:warcraft::GameTime
+warcraft	include/GameTime.h	/^namespace warcraft$/;"	n
+warcraft	include/Gameconfig.h	/^namespace warcraft$/;"	n
+~GameConfig	include/Gameconfig.h	/^    ~GameConfig() { cout << "~GameConfig()" << endl;}$/;"	f	class:warcraft::GameConfig
+~func	include/func.h	/^    ~func() {}$/;"	f	class:func

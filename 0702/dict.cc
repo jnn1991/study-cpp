@@ -29,16 +29,11 @@ public:
             {
                 if(!isalpha(c))
                 {
-                    c=' ';
+                    c='\0';
                 }
                 c=tolower(c);
             }
-            int index=0;
-            while( (index = word.find(' ',index)) != string::npos )
-            {
-                word.erase(index,1);
-            }
-            if(word=="" )
+            if(word=="" && word ==" ")
             {
                 continue;
             }else{

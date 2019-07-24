@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AndQuery	Query.h	/^    AndQuery(const Query &left,const Query &right)$/;"	f	class:AndQuery
+AndQuery	Query.h	/^class AndQuery$/;"	c
+BinaryQuery	Query.h	/^    BinaryQuery(const Query &l,const Query &r,std::string s)$/;"	f	class:BinaryQuery
+BinaryQuery	Query.h	/^class BinaryQuery$/;"	c
+NotQuery	Query.h	/^    NotQuery(const Query &q):query(q) { }$/;"	f	class:NotQuery
+NotQuery	Query.h	/^class NotQuery$/;"	c
+OrQuery	Query.h	/^    OrQuery(const Query &left,const Query &right)$/;"	f	class:OrQuery
+OrQuery	Query.h	/^class OrQuery$/;"	c
+Query	Query.h	/^    Query(std::shared_ptr<Query_base> query): q(query) {    }$/;"	f	class:Query
+Query	Query.h	/^Query::Query(const std::string &s)$/;"	f	class:Query
+Query	Query.h	/^class Query$/;"	c
+QueryResult	QueryResult.h	/^    QueryResult($/;"	f	class:QueryResult
+QueryResult	QueryResult.h	/^class QueryResult {$/;"	c
+Query_base	Query.h	/^class Query_base{$/;"	c
+TextQuery	TextQuery.cc	/^TextQuery::TextQuery(const string & filename): _file(new std::vector<string>) {$/;"	f	class:TextQuery
+TextQuery	TextQuery.h	/^class TextQuery {$/;"	c
+WordQuery	Query.h	/^    WordQuery(const std::string &s):query_word(s) { }$/;"	f	class:WordQuery
+WordQuery	Query.h	/^class WordQuery$/;"	c
+_QUERYRESULT_H	QueryResult.h	7;"	d
+_TEXTQUERY_H	TextQuery.h	7;"	d
+_file	QueryResult.h	/^    shared_ptr<vector<string>> _file;$/;"	m	class:QueryResult
+_file	TextQuery.h	/^    shared_ptr<vector<string>> _file;$/;"	m	class:TextQuery
+_lines	QueryResult.h	/^    shared_ptr<set<int>> _lines;$/;"	m	class:QueryResult
+_sought	QueryResult.h	/^    string _sought;$/;"	m	class:QueryResult
+begin	QueryResult.h	/^    line_it begin() const { return _lines->begin();  }$/;"	f	class:QueryResult
+cleanup_str	TextQuery.cc	/^string TextQuery::cleanup_str(const string & word)$/;"	f	class:TextQuery
+csost	Query.h	/^    QueryResult eval(const TextQuery&) csost;$/;"	m	class:AndQuery
+display_map	TextQuery.cc	/^void TextQuery::display_map() {$/;"	f	class:TextQuery
+end	QueryResult.h	/^    line_it end() const {   return _lines->end();   }$/;"	f	class:QueryResult
+eval	Query.h	/^    QueryResult eval(const TextQuery &t) const$/;"	f	class:Query
+eval	Query.h	/^    QueryResult eval(const TextQuery &t) const$/;"	f	class:WordQuery
+get_file	QueryResult.h	/^    shared_ptr<std::vector<string>> get_file()  { return _file; }$/;"	f	class:QueryResult
+get_word	get_print.cc	/^bool get_word(string &s1)$/;"	f
+get_words	get_print.cc	/^bool get_words(string &s1,string &s2)$/;"	f
+lhs	Query.h	/^    Query lhs,rhs;$/;"	m	class:BinaryQuery
+lineIter	TextQuery.cc	/^typedef set<TextQuery::line_no>::const_iterator lineIter;$/;"	t	file:
+lineType	TextQuery.cc	/^typedef shared_ptr<set<TextQuery::line_no> > lineType;$/;"	t	file:
+line_it	QueryResult.h	/^    typedef set<line_no>::const_iterator line_it;$/;"	t	class:QueryResult
+line_no	Query.h	/^    typedef TextQuery::line_no line_no;$/;"	t	class:Query_base
+line_no	QueryResult.h	/^    typedef vector<string>::size_type line_no;$/;"	t	class:QueryResult
+main	wordQueryTest.cpp	/^int main(int argc, char **argv)$/;"	f
+make_plural	make_plural.h	/^string make_plural(size_t ctr,const string &word,const string &ending)$/;"	f
+opSym	Query.h	/^    std::string opSym;$/;"	m	class:BinaryQuery
+operator &	Query.h	/^inline Query operator&(const Query &lhs,const Query &rhs)$/;"	f
+operator <<	Query.h	/^operator<< (std::ostream &os ,const Query & query)$/;"	f
+operator |	Query.h	/^inline Query operator|(const Query &lhs,const Query &rhs)$/;"	f
+operator ~	Query.h	/^inline Query operator~(const Query &operand)$/;"	f
+print	TextQuery.cc	/^ostream &print(ostream & os,const QueryResult &qr)$/;"	f
+q	Query.h	/^    std::shared_ptr<Query_base> q;$/;"	m	class:Query
+query	Query.h	/^    Query query;$/;"	m	class:NotQuery
+query	TextQuery.cc	/^QueryResult TextQuery:: query(const string& sought) const{$/;"	f	class:TextQuery
+query_word	Query.h	/^    std::string query_word;$/;"	m	class:WordQuery
+rep	Query.h	/^    std::string rep() const {   return "~(" + query.rep() + ")";}$/;"	f	class:NotQuery
+rep	Query.h	/^    std::string rep() const {   return query_word;  }$/;"	f	class:WordQuery
+rep	Query.h	/^    std::string rep() const {return q->rep();};$/;"	f	class:Query
+ret	Query.h	/^    std::string ret() const {$/;"	f	class:BinaryQuery
+rhs	Query.h	/^    Query lhs,rhs;$/;"	m	class:BinaryQuery
+size	QueryResult.h	/^    set<line_no>::size_type size() const {  return _lines->size();  }$/;"	f	class:QueryResult
+wmIter	TextQuery.cc	/^typedef wmType::const_iterator wmIter;$/;"	t	file:
+wmType	TextQuery.cc	/^typedef map<string, shared_ptr<set<TextQuery::line_no>>> wmType;$/;"	t	file:
+~Query_base	Query.h	/^    virtual ~Query_base() {}$/;"	f	class:Query_base

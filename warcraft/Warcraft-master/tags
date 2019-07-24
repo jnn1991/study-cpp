@@ -1,0 +1,338 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARROW_TYPE	Types.h	/^	ARROW_TYPE $/;"	e	enum:warcraft::WeaponType
+Arrow	Weapon.h	/^	Arrow(size_t attack = 0)$/;"	f	class:warcraft::Arrow
+Arrow	Weapon.h	/^class Arrow$/;"	c	namespace:warcraft
+ArrowView	Weapon.h	/^	ArrowView(WeaponPtr weapon) $/;"	f	class:warcraft::ArrowView
+ArrowView	Weapon.h	/^class ArrowView $/;"	c	namespace:warcraft
+BLUE	Types.h	/^	BLUE,$/;"	e	enum:warcraft::Color
+BOMB_TYPE	Types.h	/^	BOMB_TYPE, $/;"	e	enum:warcraft::WeaponType
+BattleView	Warrior.h	/^	BattleView(WarriorPtr warrior1, WarriorPtr warrior2)$/;"	f	class:warcraft::BattleView
+BattleView	Warrior.h	/^class BattleView$/;"	c	namespace:warcraft
+BlueHeadquarters	Headquarters.h	/^	BlueHeadquarters(size_t elements)$/;"	f	class:warcraft::BlueHeadquarters
+BlueHeadquarters	Headquarters.h	/^class BlueHeadquarters$/;"	c	namespace:warcraft
+Bomb	Weapon.h	/^	Bomb(size_t attack = 0)$/;"	f	class:warcraft::Bomb
+Bomb	Weapon.h	/^class Bomb$/;"	c	namespace:warcraft
+BombView	Weapon.h	/^	BombView(WeaponPtr weapon) $/;"	f	class:warcraft::BombView
+BombView	Weapon.h	/^class BombView$/;"	c	namespace:warcraft
+CC	Makefile	/^CC := g++$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS := -std=c++11 -g -Wno-deprecated$/;"	m
+CPP_FILE	Makefile	/^CPP_FILE :=  $(wildcard .\/*.cc) $/;"	m
+City	City.h	/^	City(size_t id, size_t elements = 0)$/;"	f	class:warcraft::City
+City	City.h	/^class City$/;"	c	namespace:warcraft
+CityView	City.h	/^	CityView(City * city) : _city(city) {}$/;"	f	class:warcraft::CityView
+CityView	City.h	/^class CityView$/;"	c	namespace:warcraft
+Color	Types.h	/^enum Color { $/;"	g	namespace:warcraft
+DEBUG	Mylogger.h	/^		DEBUG$/;"	e	enum:wd::Mylogger::PRIORITY
+DRAGON_TYPE	Types.h	/^	DRAGON_TYPE, $/;"	e	enum:warcraft::WarriorType
+Dragon	Warrior.h	/^	Dragon(Color color, size_t id, size_t hp, size_t forces, float morale)$/;"	f	class:warcraft::Dragon
+Dragon	Warrior.h	/^class Dragon$/;"	c	namespace:warcraft
+DragonView	Warrior.h	/^	DragonView(WarriorPtr warrior)$/;"	f	class:warcraft::DragonView
+DragonView	Warrior.h	/^class DragonView$/;"	c	namespace:warcraft
+ERROR	Mylogger.h	/^		ERROR = 0,$/;"	e	enum:wd::Mylogger::PRIORITY
+GameConfig	GameConfig.h	/^	GameConfig() : _currentGroupId(0){	cout << "GameConfig()" << endl;	}$/;"	f	class:warcraft::GameConfig
+GameConfig	GameConfig.h	/^class GameConfig {$/;"	c	namespace:warcraft
+GameTime	GameTime.h	/^	GameTime(size_t hour = 0, size_t minute = 0)$/;"	f	class:warcraft::GameTime
+GameTime	GameTime.h	/^class GameTime$/;"	c	namespace:warcraft
+Headquarters	Headquarters.h	/^	Headquarters(Color color, size_t elements)$/;"	f	class:warcraft::Headquarters
+Headquarters	Headquarters.h	/^class Headquarters $/;"	c	namespace:warcraft
+HeadquartersView	Headquarters.h	/^	HeadquartersView(Headquarters * headquarters)$/;"	f	class:warcraft::HeadquartersView
+HeadquartersView	Headquarters.h	/^class HeadquartersView$/;"	c	namespace:warcraft
+ICEMAN_TYPE	Types.h	/^	ICEMAN_TYPE, $/;"	e	enum:warcraft::WarriorType
+INC_DIR	Makefile	/^INC_DIR :=  .\/$/;"	m
+INC_FILE	Makefile	/^INC_FILE := $(addprefix -I, $(INC_DIR))$/;"	m
+INFO	Mylogger.h	/^		INFO,$/;"	e	enum:wd::Mylogger::PRIORITY
+Iceman	Warrior.h	/^	Iceman(Color color, size_t id, size_t hp, size_t forces)$/;"	f	class:warcraft::Iceman
+Iceman	Warrior.h	/^class Iceman$/;"	c	namespace:warcraft
+IcemanView	Warrior.h	/^	IcemanView(WarriorPtr warrior)$/;"	f	class:warcraft::IcemanView
+IcemanView	Warrior.h	/^class IcemanView$/;"	c	namespace:warcraft
+InitData	GameConfig.h	/^	struct InitData$/;"	s	class:warcraft::GameConfig
+LIBS	Makefile	/^LIBS := -llog4cpp -lpthread$/;"	m
+LION_TYPE	Types.h	/^	LION_TYPE, $/;"	e	enum:warcraft::WarriorType
+Lion	Warrior.h	/^	Lion(Color color, size_t id, size_t hp, size_t forces, size_t loyalty)$/;"	f	class:warcraft::Lion
+Lion	Warrior.h	/^class Lion$/;"	c	namespace:warcraft
+LionView	Warrior.h	/^	LionView(WarriorPtr warrior)$/;"	f	class:warcraft::LionView
+LionView	Warrior.h	/^class LionView $/;"	c	namespace:warcraft
+LogDebug	Mylogger.h	92;"	d
+LogError	Mylogger.h	89;"	d
+LogInfo	Mylogger.h	90;"	d
+LogWarn	Mylogger.h	91;"	d
+Mylogger	Mylogger.cc	/^Mylogger::Mylogger() $/;"	f	class:wd::Mylogger
+Mylogger	Mylogger.h	/^class Mylogger$/;"	c	namespace:wd
+NINJA_TYPE	Types.h	/^	NINJA_TYPE, $/;"	e	enum:warcraft::WarriorType
+NOTSET	Types.h	/^	NOTSET$/;"	e	enum:warcraft::Color
+Ninja	Warrior.h	/^	Ninja(Color color, size_t id, size_t hp, size_t forces)$/;"	f	class:warcraft::Ninja
+Ninja	Warrior.h	/^class Ninja$/;"	c	namespace:warcraft
+NinjaView	Warrior.h	/^	NinjaView(WarriorPtr warrior)$/;"	f	class:warcraft::NinjaView
+NinjaView	Warrior.h	/^class NinjaView$/;"	c	namespace:warcraft
+OBJS	Makefile	/^OBJS := $(patsubst %.cc, %.o, $(CPP_FILE))$/;"	m
+PRIORITY	Mylogger.h	/^	enum PRIORITY{$/;"	g	class:wd::Mylogger
+RED	Types.h	/^	RED, $/;"	e	enum:warcraft::Color
+RedHeadquarters	Headquarters.h	/^	RedHeadquarters(size_t elements)$/;"	f	class:warcraft::RedHeadquarters
+RedHeadquarters	Headquarters.h	/^class RedHeadquarters$/;"	c	namespace:warcraft
+SRC_DIR	Makefile	/^SRC_DIR = .\/$/;"	m
+SWORD_TYPE	Types.h	/^	SWORD_TYPE, $/;"	e	enum:warcraft::WeaponType
+Sword	Weapon.h	/^	Sword(size_t attack = 0)$/;"	f	class:warcraft::Sword
+Sword	Weapon.h	/^class Sword$/;"	c	namespace:warcraft
+SwordView	Weapon.h	/^	SwordView(WeaponPtr weapon) $/;"	f	class:warcraft::SwordView
+SwordView	Weapon.h	/^class SwordView$/;"	c	namespace:warcraft
+TARGET	Makefile	/^TARGET := wow.exe$/;"	m
+WARN	Mylogger.h	/^		WARN,$/;"	e	enum:wd::Mylogger::PRIORITY
+WOLF_TYPE	Types.h	/^	WOLF_TYPE $/;"	e	enum:warcraft::WarriorType
+WarcraftWorld	WarcraftWorld.h	/^	WarcraftWorld()$/;"	f	class:warcraft::WarcraftWorld
+WarcraftWorld	WarcraftWorld.h	/^class WarcraftWorld$/;"	c	namespace:warcraft
+Warrior	Warrior.h	/^	Warrior(Color color, const string & name, $/;"	f	class:warcraft::Warrior
+Warrior	Warrior.h	/^class Warrior $/;"	c	namespace:warcraft
+WarriorComparator	Headquarters.h	/^struct WarriorComparator$/;"	s	namespace:warcraft
+WarriorType	Types.h	/^enum WarriorType { $/;"	g	namespace:warcraft
+WarriorView	Warrior.h	/^	WarriorView(WarriorPtr warrior)$/;"	f	class:warcraft::WarriorView
+WarriorView	Warrior.h	/^class WarriorView$/;"	c	namespace:warcraft
+Weapon	Weapon.h	/^	Weapon(WeaponType type, const string & name, size_t attack = 0)$/;"	f	class:warcraft::Weapon
+Weapon	Weapon.h	/^class Weapon {$/;"	c	namespace:warcraft
+WeaponType	Types.h	/^enum WeaponType{ $/;"	g	namespace:warcraft
+WeaponView	Weapon.h	/^	WeaponView(WeaponPtr weapon)$/;"	f	class:warcraft::WeaponView
+WeaponView	Weapon.h	/^class WeaponView$/;"	c	namespace:warcraft
+Wolf	Warrior.h	/^	Wolf(Color color, size_t id, size_t hp, size_t forces)$/;"	f	class:warcraft::Wolf
+Wolf	Warrior.h	/^class Wolf$/;"	c	namespace:warcraft
+WolfView	Warrior.h	/^	WolfView(WarriorPtr warrior)$/;"	f	class:warcraft::WolfView
+WolfView	Warrior.h	/^class WolfView$/;"	c	namespace:warcraft
+_WARCRAFT_COLOR_H_	Types.h	8;"	d
+_WARCRAF_WEAPON_H	Weapon.h	8;"	d
+__WARCRAFT_GAMETIME_H__	GameTime.h	8;"	d
+__WARCRAFT_HEADQUARTERS_H__	Headquarters.h	9;"	d
+__WARCRAFT_WARCRAFTWORLD_H__	WarcraftWorld.h	9;"	d
+__WARCRAFT_WARRIOR_H__	Warrior.h	7;"	d
+__WD_MYLOGGER_H__	Mylogger.h	9;"	d
+_attack	Weapon.h	/^    size_t _attack;$/;"	m	class:warcraft::Weapon
+_blueHeadquarters	WarcraftWorld.h	/^	Headquarters * _blueHeadquarters;$/;"	m	class:warcraft::WarcraftWorld
+_blueWarriors	City.h	/^	vector<WarriorPtr> _blueWarriors;$/;"	m	class:warcraft::City
+_blueWinCount	City.h	/^	size_t _blueWinCount;$/;"	m	class:warcraft::City
+_cities	WarcraftWorld.h	/^	vector<City> _cities;$/;"	m	class:warcraft::WarcraftWorld
+_city	City.h	/^	City * _city;$/;"	m	class:warcraft::CityView
+_cityCount	GameConfig.h	/^		size_t _cityCount;$/;"	m	struct:warcraft::GameConfig::InitData
+_cityId	Warrior.h	/^	size_t _cityId;$/;"	m	class:warcraft::Warrior
+_color	Headquarters.h	/^	Color _color;$/;"	m	class:warcraft::Headquarters
+_color	Warrior.h	/^	Color _color;$/;"	m	class:warcraft::Warrior
+_currentGroupId	GameConfig.h	/^	size_t _currentGroupId;\/\/当前组的测试数据的id$/;"	m	class:warcraft::GameConfig
+_earnElements	Headquarters.h	/^	size_t _earnElements;$/;"	m	class:warcraft::Headquarters
+_earnElements	Warrior.h	/^	size_t _earnElements;$/;"	m	class:warcraft::Warrior
+_elements	City.h	/^	size_t _elements;\/\/生命元数量$/;"	m	class:warcraft::City
+_elements	Headquarters.h	/^	size_t _elements;$/;"	m	class:warcraft::Headquarters
+_flag	City.h	/^	Color _flag;\/\/旗子颜色$/;"	m	class:warcraft::City
+_forces	Warrior.h	/^	size_t _forces;$/;"	m	class:warcraft::Warrior
+_groups	GameConfig.h	/^	vector<InitData> _groups;$/;"	m	class:warcraft::GameConfig
+_headquarters	Headquarters.h	/^	Headquarters * _headquarters;$/;"	m	class:warcraft::HeadquartersView
+_headquarters	Warrior.h	/^	Headquarters * _headquarters;$/;"	m	class:warcraft::Warrior
+_hour	GameTime.h	/^	size_t _hour;$/;"	m	class:warcraft::GameTime
+_hp	Warrior.h	/^	size_t _hp;$/;"	m	class:warcraft::Warrior
+_id	City.h	/^	size_t _id;$/;"	m	class:warcraft::City
+_id	Headquarters.h	/^	size_t _id;$/;"	m	class:warcraft::Headquarters
+_id	Warrior.h	/^	size_t _id;$/;"	m	class:warcraft::Warrior
+_initAttacks	GameConfig.h	/^		map<WarriorType, size_t> _initAttacks;$/;"	m	struct:warcraft::GameConfig::InitData
+_initElements	GameConfig.h	/^		size_t _initElements;$/;"	m	struct:warcraft::GameConfig::InitData
+_initLifes	GameConfig.h	/^		map<WarriorType, size_t> _initLifes;$/;"	m	struct:warcraft::GameConfig::InitData
+_initWarriorOrder	GameConfig.h	/^	vector<WarriorType> _initWarriorOrder;$/;"	m	class:warcraft::GameConfig
+_killTimes	Warrior.h	/^	int _killTimes;$/;"	m	class:warcraft::Wolf
+_loyalty	Warrior.h	/^	size_t _loyalty;$/;"	m	class:warcraft::Lion
+_minute	GameTime.h	/^	size_t _minute;$/;"	m	class:warcraft::GameTime
+_minutes	GameConfig.h	/^		size_t _minutes;$/;"	m	struct:warcraft::GameConfig::InitData
+_morale	Warrior.h	/^	float _morale;$/;"	m	class:warcraft::Dragon
+_mylogger	Mylogger.h	/^	Category & _mylogger;$/;"	m	class:wd::Mylogger
+_name	Warrior.h	/^	string _name;$/;"	m	class:warcraft::Warrior
+_name	Weapon.h	/^    string _name;$/;"	m	class:warcraft::Weapon
+_nextWarriorIndex	Headquarters.h	/^	size_t _nextWarriorIndex;$/;"	m	class:warcraft::Headquarters
+_once	GameTime.cc	/^pthread_once_t GameTime::_once = PTHREAD_ONCE_INIT;$/;"	m	class:warcraft::GameTime	file:
+_once	GameTime.h	/^	static pthread_once_t _once;$/;"	m	class:warcraft::GameTime
+_pInstance	GameConfig.cc	/^GameConfig * GameConfig::_pInstance = getInstance();$/;"	m	class:warcraft::GameConfig	file:
+_pInstance	GameConfig.h	/^	static GameConfig * _pInstance;$/;"	m	class:warcraft::GameConfig
+_pInstance	GameTime.cc	/^GameTime * GameTime::_pInstance = getInstance();$/;"	m	class:warcraft::GameTime	file:
+_pInstance	GameTime.h	/^	static GameTime * _pInstance;$/;"	m	class:warcraft::GameTime
+_pInstance	Mylogger.cc	/^Mylogger * Mylogger::_pInstance = getInstance();$/;"	m	class:wd::Mylogger	file:
+_pInstance	Mylogger.h	/^	static Mylogger * _pInstance;$/;"	m	class:wd::Mylogger
+_redHeadquarters	WarcraftWorld.h	/^	Headquarters * _redHeadquarters;$/;"	m	class:warcraft::WarcraftWorld
+_redWarriors	City.h	/^	vector<WarriorPtr> _redWarriors;$/;"	m	class:warcraft::City
+_redWinCount	City.h	/^	size_t _redWinCount;$/;"	m	class:warcraft::City
+_steps	Warrior.h	/^	size_t _steps;$/;"	m	class:warcraft::Iceman
+_type	Warrior.h	/^	WarriorType _type;$/;"	m	class:warcraft::Warrior
+_type	Weapon.h	/^	WeaponType _type;$/;"	m	class:warcraft::Weapon
+_warrior	Warrior.h	/^	WarriorPtr _warrior;$/;"	m	class:warcraft::WarriorView
+_warrior1	Warrior.h	/^	WarriorPtr _warrior1;$/;"	m	class:warcraft::BattleView
+_warrior2	Warrior.h	/^	WarriorPtr _warrior2;$/;"	m	class:warcraft::BattleView
+_warriorCreatingOrder	Headquarters.h	/^	vector<WarriorType> _warriorCreatingOrder;$/;"	m	class:warcraft::Headquarters
+_warriorTypeAmounts	Headquarters.h	/^	unordered_map<WarriorType, size_t> _warriorTypeAmounts;$/;"	m	class:warcraft::Headquarters
+_warriors	Headquarters.h	/^	vector<WarriorPtr> _warriors;$/;"	m	class:warcraft::Headquarters
+_weapon	Weapon.h	/^	WeaponPtr _weapon;$/;"	m	class:warcraft::WeaponView
+_weapons	Warrior.h	/^	vector<WeaponPtr> _weapons;$/;"	m	class:warcraft::Warrior
+_winners	Headquarters.h	/^	priority_queue<WarriorPtr, vector<WarriorPtr>, WarriorComparator> _winners;$/;"	m	class:warcraft::Headquarters
+addWinner	Headquarters.h	/^	void addWinner(WarriorPtr warrior) {	_winners.push(warrior);	}$/;"	f	class:warcraft::Headquarters
+attach	City.cc	/^void City::attach(WarriorPtr warrior)$/;"	f	class:warcraft::City
+attack	Warrior.cc	/^void Warrior::attack(WarriorPtr warrior)$/;"	f	class:warcraft::Warrior
+attack	Warrior.cc	/^void Wolf::attack(WarriorPtr warrior)$/;"	f	class:warcraft::Wolf
+battle	City.cc	/^void City::battle(WarriorPtr warrior1, WarriorPtr warrior2)$/;"	f	class:warcraft::City
+battle	WarcraftWorld.cc	/^void WarcraftWorld::battle()$/;"	f	class:warcraft::WarcraftWorld
+beRewarded	Warrior.cc	/^void Warrior::beRewarded()$/;"	f	class:warcraft::Warrior
+beWinner	Warrior.cc	/^void Warrior::beWinner()$/;"	f	class:warcraft::Warrior
+checkBlueHeadquartersBeTaken	WarcraftWorld.cc	/^bool WarcraftWorld::checkBlueHeadquartersBeTaken()$/;"	f	class:warcraft::WarcraftWorld
+checkRedHeadquartersBeTaken	WarcraftWorld.cc	/^bool WarcraftWorld::checkRedHeadquartersBeTaken()$/;"	f	class:warcraft::WarcraftWorld
+cityCount	GameConfig.h	/^	size_t cityCount() {	return _groups[_currentGroupId]._cityCount;	}$/;"	f	class:warcraft::GameConfig
+cityProduceElements	WarcraftWorld.cc	/^void WarcraftWorld::cityProduceElements()$/;"	f	class:warcraft::WarcraftWorld
+create	Headquarters.cc	/^WarriorPtr Headquarters::create() $/;"	f	class:warcraft::Headquarters
+create	Headquarters.cc	/^WeaponPtr Headquarters::create(WeaponType type)$/;"	f	class:warcraft::Headquarters
+createDragon	Headquarters.cc	/^WarriorPtr Headquarters::createDragon(size_t id, size_t hp, size_t forces)$/;"	f	class:warcraft::Headquarters
+createIceman	Headquarters.cc	/^WarriorPtr Headquarters::createIceman(size_t id, size_t hp, size_t forces)$/;"	f	class:warcraft::Headquarters
+createLion	Headquarters.cc	/^WarriorPtr Headquarters::createLion(size_t id, size_t hp, size_t forces)$/;"	f	class:warcraft::Headquarters
+createNinja	Headquarters.cc	/^WarriorPtr Headquarters::createNinja(size_t id, size_t hp, size_t forces)$/;"	f	class:warcraft::Headquarters
+createWarrior	WarcraftWorld.cc	/^bool WarcraftWorld::createWarrior(Headquarters * headquarters)$/;"	f	class:warcraft::WarcraftWorld
+createWarrior	WarcraftWorld.cc	/^void WarcraftWorld::createWarrior() $/;"	f	class:warcraft::WarcraftWorld
+createWolf	Headquarters.cc	/^WarriorPtr Headquarters::createWolf(size_t id, size_t hp, size_t forces)$/;"	f	class:warcraft::Headquarters
+currentGroupId	GameConfig.h	/^	size_t currentGroupId()	const {	return _currentGroupId;	}$/;"	f	class:warcraft::GameConfig
+debug	GameConfig.cc	/^void GameConfig::debug() const$/;"	f	class:warcraft::GameConfig
+debug	Mylogger.cc	/^void Mylogger::debug(const char * msg)$/;"	f	class:wd::Mylogger
+debug	Mylogger.h	/^	void debug(Args... args)$/;"	f	class:wd::Mylogger
+defense	Warrior.cc	/^void Ninja::defense(WarriorPtr warrior)$/;"	f	class:warcraft::Ninja
+defense	Warrior.cc	/^void Warrior::defense(WarriorPtr warrior)$/;"	f	class:warcraft::Warrior
+destroy	GameConfig.h	/^	static void destroy() $/;"	f	class:warcraft::GameConfig
+destroy	GameTime.cc	/^void GameTime::destroy()$/;"	f	class:warcraft::GameTime
+destroy	Mylogger.h	/^	static void destroy() $/;"	f	class:wd::Mylogger
+detach	City.cc	/^void City::detach(WarriorPtr warrior)$/;"	f	class:warcraft::City
+error	Mylogger.cc	/^void Mylogger::error(const char * msg)$/;"	f	class:wd::Mylogger
+error	Mylogger.h	/^	void error(Args... args)$/;"	f	class:wd::Mylogger
+getAttackValue	Weapon.h	/^	size_t getAttackValue() {	return _attack;	}$/;"	f	class:warcraft::Weapon
+getBlueWarriors	City.h	/^	vector<WarriorPtr> & getBlueWarriors() {	return _blueWarriors;	}$/;"	f	class:warcraft::City
+getCityId	Warrior.h	/^	size_t getCityId() const {	return _cityId;	}$/;"	f	class:warcraft::Warrior
+getClor	Warrior.h	/^	Color getClor() const {	return _color;	}$/;"	f	class:warcraft::Warrior
+getColor	Headquarters.h	/^	Color getColor() const {	return _color;	}$/;"	f	class:warcraft::Headquarters
+getEarnElements	Warrior.h	/^	size_t getEarnElements() const {	return _earnElements;	}$/;"	f	class:warcraft::Warrior
+getElements	Headquarters.h	/^	size_t getElements() const {	return _elements;	}$/;"	f	class:warcraft::Headquarters
+getElements	Warrior.h	/^	size_t getElements() const {	return _hp;	}$/;"	f	class:warcraft::Warrior
+getFlag	City.h	/^	Color getFlag() const {	return _flag;	}$/;"	f	class:warcraft::City
+getForces	Warrior.h	/^	size_t getForces() const {	return _forces;	}$/;"	f	class:warcraft::Warrior
+getHp	Warrior.h	/^	size_t getHp() const {	return _hp;	}$/;"	f	class:warcraft::Warrior
+getId	City.h	/^	size_t getId() const {	return _id;	}$/;"	f	class:warcraft::City
+getId	Headquarters.h	/^	size_t getId() const {	return _id;	}$/;"	f	class:warcraft::Headquarters
+getId	Warrior.h	/^	size_t getId() const	{	return _id;	}$/;"	f	class:warcraft::Warrior
+getInstance	GameConfig.h	/^	static GameConfig * getInstance()$/;"	f	class:warcraft::GameConfig
+getInstance	GameTime.cc	/^GameTime * GameTime::getInstance()$/;"	f	class:warcraft::GameTime
+getInstance	Mylogger.h	/^	static Mylogger * getInstance() $/;"	f	class:wd::Mylogger
+getLoyalty	Warrior.h	/^	virtual size_t getLoyalty() const {	return 0;	}$/;"	f	class:warcraft::Warrior
+getMorale	Warrior.h	/^	float getMorale() const  {	return _morale;	}$/;"	f	class:warcraft::Dragon
+getMorale	Warrior.h	/^	virtual float getMorale() const {	return 0;	} $/;"	f	class:warcraft::Warrior
+getName	Warrior.h	/^	string getName() {	return _name;	}$/;"	f	class:warcraft::Warrior
+getName	Weapon.h	/^	string getName() {	return _name;	}$/;"	f	class:warcraft::Weapon
+getNextWarriorType	Headquarters.h	/^	WarriorType getNextWarriorType() {	return _warriorCreatingOrder[_nextWarriorIndex];	}$/;"	f	class:warcraft::Headquarters
+getRedWarriors	City.h	/^	vector<WarriorPtr> & getRedWarriors() {	return _redWarriors;	}$/;"	f	class:warcraft::City
+getSoloWarrior	City.h	/^	WarriorPtr getSoloWarrior() $/;"	f	class:warcraft::City
+getTime	GameTime.h	/^	size_t getTime() const {	return _hour;	}$/;"	f	class:warcraft::GameTime
+getType	Warrior.h	/^	WarriorType getType() const {	return _type;	}$/;"	f	class:warcraft::Warrior
+getType	Weapon.h	/^	WeaponType getType() const {	return _type;	}$/;"	f	class:warcraft::Weapon
+getWarriorAmount	City.h	/^	size_t getWarriorAmount() const {	return _redWarriors.size() + _blueWarriors.size();	}$/;"	f	class:warcraft::City
+getWarriorAmount	Headquarters.h	/^	size_t getWarriorAmount(WarriorType type) {	return _warriorTypeAmounts[type]; }$/;"	f	class:warcraft::Headquarters
+getWarriorTotalAmount	Headquarters.h	/^	size_t getWarriorTotalAmount() const {	return _warriors.size();	}$/;"	f	class:warcraft::Headquarters
+getWarriors	Headquarters.h	/^	vector<WarriorPtr> & getWarriors() {	return _warriors;	}$/;"	f	class:warcraft::Headquarters
+getWeapons	Warrior.h	/^	const vector<WeaponPtr> & getWeapons() const {	return _weapons;	}	$/;"	f	class:warcraft::Warrior
+groups	GameConfig.h	/^	size_t groups() const {	return _groups.size();	}$/;"	f	class:warcraft::GameConfig
+headquartersInitialElements	GameConfig.cc	/^size_t GameConfig::headquartersInitialElements()$/;"	f	class:warcraft::GameConfig
+headquartersReportElements	WarcraftWorld.cc	/^void WarcraftWorld::headquartersReportElements()$/;"	f	class:warcraft::WarcraftWorld
+increaseElements	Headquarters.h	/^	void increaseElements(size_t elements) { _earnElements += elements;}$/;"	f	class:warcraft::Headquarters
+info	Mylogger.cc	/^void Mylogger::info(const char * msg)$/;"	f	class:wd::Mylogger
+info	Mylogger.h	/^	void info(Args... args)$/;"	f	class:wd::Mylogger
+init	GameTime.cc	/^void GameTime::init()$/;"	f	class:warcraft::GameTime
+init	WarcraftWorld.cc	/^void WarcraftWorld::init() $/;"	f	class:warcraft::WarcraftWorld
+isChangingFlag	City.cc	/^bool City::isChangingFlag(WarriorPtr warrior)$/;"	f	class:warcraft::City
+main	TestWarcraft.cc	/^int main(int argc, char ** argv)$/;"	f
+march	Warrior.cc	/^void Iceman::march() $/;"	f	class:warcraft::Iceman
+march	Warrior.cc	/^void Warrior::march()$/;"	f	class:warcraft::Warrior
+nextGroupId	GameConfig.h	/^	void nextGroupId() {	++_currentGroupId;	}$/;"	f	class:warcraft::GameConfig
+nextWarriorType	Headquarters.cc	/^void Headquarters::nextWarriorType()$/;"	f	class:warcraft::Headquarters
+objs	Makefile	/^objs:=$(addsuffix \/*.o, $(SRC_DIR))$/;"	m
+operator ()	Headquarters.h	/^	bool operator()(const WarriorPtr & lhs, const WarriorPtr & rhs) const$/;"	f	struct:warcraft::WarriorComparator
+override	Warrior.h	/^	virtual void defense(WarriorPtr warrior) override;$/;"	m	class:warcraft::Ninja
+override	Warrior.h	/^	void attack(WarriorPtr warrior) override;$/;"	m	class:warcraft::Wolf
+override	Warrior.h	/^	void march() override;$/;"	m	class:warcraft::Iceman
+prefix	Mylogger.h	19;"	d
+produceElements	City.cc	/^void City::produceElements()$/;"	f	class:warcraft::City
+readFromConsole	GameConfig.cc	/^void GameConfig::readFromConsole()$/;"	f	class:warcraft::GameConfig
+readFromFile	GameConfig.cc	/^void GameConfig::readFromFile(const string & filename)$/;"	f	class:warcraft::GameConfig
+readFromStream	GameConfig.cc	/^void GameConfig::readFromStream(istream & is)$/;"	f	class:warcraft::GameConfig
+reset	GameTime.h	/^	void reset()$/;"	f	class:warcraft::GameTime
+reward	Headquarters.cc	/^void Headquarters::reward()$/;"	f	class:warcraft::Headquarters
+sentElementsToHeadquarters	Warrior.cc	/^void Warrior::sentElementsToHeadquarters(size_t elements)$/;"	f	class:warcraft::Warrior
+setBlueWarriorCreatingOrder	WarcraftWorld.h	/^void WarcraftWorld::setBlueWarriorCreatingOrder(Iterator beg, Iterator end)$/;"	f	class:warcraft::WarcraftWorld
+setCity	Warrior.h	/^	void setCity(size_t id) {	_cityId = id;	}$/;"	f	class:warcraft::Warrior
+setElements	Headquarters.h	/^	void setElements(size_t elements) {	_elements = elements;	}$/;"	f	class:warcraft::Headquarters
+setHeadquarters	Warrior.h	/^	void setHeadquarters(Headquarters * headquarters) {	_headquarters = headquarters;	}$/;"	f	class:warcraft::Warrior
+setHp	Warrior.h	/^	void setHp(size_t hp) {	_hp = hp; }$/;"	f	class:warcraft::Warrior
+setId	Headquarters.h	/^	void setId(size_t id) {	_id = id;	}$/;"	f	class:warcraft::Headquarters
+setPriority	Mylogger.cc	/^void Mylogger::setPriority(PRIORITY p)$/;"	f	class:wd::Mylogger
+setRedWarriorCreatingOrder	WarcraftWorld.h	/^void WarcraftWorld::setRedWarriorCreatingOrder(Iterator beg, Iterator end)$/;"	f	class:warcraft::WarcraftWorld
+setWarriorCreatingOrder	Headquarters.h	/^	void setWarriorCreatingOrder(Iterator beg, Iterator end) $/;"	f	class:warcraft::Headquarters
+setWarriorOrder	GameConfig.h	/^	void setWarriorOrder(Iterator beg, Iterator end)$/;"	f	class:warcraft::GameConfig
+setWeapon	Warrior.h	/^	void setWeapon(WeaponPtr weapon) { _weapons.push_back(weapon); }$/;"	f	class:warcraft::Warrior
+show	Weapon.h	/^	void show() const $/;"	f	class:warcraft::BombView
+show	Weapon.h	/^	void show() const$/;"	f	class:warcraft::ArrowView
+show	Weapon.h	/^	void show() const$/;"	f	class:warcraft::SwordView
+showBattle	Warrior.cc	/^void BattleView::showBattle() const$/;"	f	class:warcraft::BattleView
+showBeTaken	Headquarters.cc	/^void HeadquartersView::showBeTaken() const$/;"	f	class:warcraft::HeadquartersView
+showBorn	Warrior.cc	/^void WarriorView::showBorn() const$/;"	f	class:warcraft::WarriorView
+showDeath	Warrior.cc	/^void WarriorView::showDeath() const$/;"	f	class:warcraft::WarriorView
+showDefense	Warrior.cc	/^void BattleView::showDefense() const$/;"	f	class:warcraft::BattleView
+showEarnElements	Warrior.cc	/^void WarriorView::showEarnElements() const$/;"	f	class:warcraft::WarriorView
+showElementsAndForces	Warrior.cc	/^void WarriorView::showElementsAndForces() const$/;"	f	class:warcraft::WarriorView
+showFlag	City.cc	/^void CityView::showFlag() const $/;"	f	class:warcraft::CityView
+showInCity	Warrior.cc	/^void WarriorView::showInCity() const$/;"	f	class:warcraft::WarriorView
+showLeftElements	Headquarters.cc	/^void HeadquartersView::showLeftElements() const$/;"	f	class:warcraft::HeadquartersView
+showMarch	Warrior.cc	/^void WarriorView::showMarch() const$/;"	f	class:warcraft::WarriorView
+showName	Warrior.cc	/^void WarriorView::showName() const$/;"	f	class:warcraft::WarriorView
+showReachDestination	Warrior.cc	/^void WarriorView::showReachDestination() const$/;"	f	class:warcraft::WarriorView
+showTime	GameTime.cc	/^void GameTime::showTime() const$/;"	f	class:warcraft::GameTime
+showToCity	Warrior.cc	/^void WarriorView::showToCity() const$/;"	f	class:warcraft::WarriorView
+showWeapon	Warrior.cc	/^void DragonView::showWeapon() const$/;"	f	class:warcraft::DragonView
+showWeapon	Warrior.cc	/^void IcemanView::showWeapon() const$/;"	f	class:warcraft::IcemanView
+showWeapon	Warrior.cc	/^void LionView::showWeapon() const$/;"	f	class:warcraft::LionView
+showWeapon	Warrior.cc	/^void NinjaView::showWeapon() const$/;"	f	class:warcraft::NinjaView
+showWeapon	Warrior.cc	/^void WolfView::showWeapon() const$/;"	f	class:warcraft::WolfView
+showWeapon	Warrior.h	/^	virtual void showWeapon() const{}$/;"	f	class:warcraft::WarriorView
+showYell	Warrior.cc	/^void DragonView::showYell() const$/;"	f	class:warcraft::DragonView
+start	WarcraftWorld.cc	/^void WarcraftWorld::start()$/;"	f	class:warcraft::WarcraftWorld
+startBattle	City.cc	/^void City::startBattle()$/;"	f	class:warcraft::City
+takeCityElements	WarcraftWorld.cc	/^void WarcraftWorld::takeCityElements()$/;"	f	class:warcraft::WarcraftWorld
+takenBy	City.cc	/^void City::takenBy(WarriorPtr warrior)$/;"	f	class:warcraft::City
+test0	TestWarcraft.cc	/^int test0()$/;"	f
+toString	Types.h	/^inline string toString(Color color) $/;"	f	namespace:warcraft
+toString	Types.h	/^inline string toString(WarriorType type)$/;"	f	namespace:warcraft
+toString	Types.h	/^inline string toString(WeaponType type) $/;"	f	namespace:warcraft
+updateTime	GameTime.cc	/^void GameTime::updateTime()$/;"	f	class:warcraft::GameTime
+warcraft	City.cc	/^namespace warcraft$/;"	n	file:
+warcraft	City.h	/^namespace warcraft$/;"	n
+warcraft	GameConfig.cc	/^namespace warcraft$/;"	n	file:
+warcraft	GameConfig.h	/^namespace warcraft$/;"	n
+warcraft	GameTime.cc	/^namespace warcraft$/;"	n	file:
+warcraft	GameTime.h	/^namespace warcraft$/;"	n
+warcraft	Headquarters.cc	/^namespace warcraft$/;"	n	file:
+warcraft	Headquarters.h	/^namespace warcraft$/;"	n
+warcraft	Types.h	/^namespace warcraft$/;"	n
+warcraft	WarcraftWorld.cc	/^namespace warcraft$/;"	n	file:
+warcraft	WarcraftWorld.h	/^namespace warcraft$/;"	n
+warcraft	Warrior.cc	/^namespace warcraft$/;"	n	file:
+warcraft	Warrior.h	/^namespace warcraft $/;"	n
+warcraft	Weapon.h	/^namespace warcraft$/;"	n
+warn	Mylogger.cc	/^void Mylogger::warn(const char * msg)$/;"	f	class:wd::Mylogger
+warn	Mylogger.h	/^	void warn(Args... args)$/;"	f	class:wd::Mylogger
+warriorInitalAttack	GameConfig.cc	/^size_t GameConfig::warriorInitalAttack(WarriorType key) $/;"	f	class:warcraft::GameConfig
+warriorInitalLife	GameConfig.cc	/^size_t GameConfig::warriorInitalLife(WarriorType key)$/;"	f	class:warcraft::GameConfig
+warriorMarch	WarcraftWorld.cc	/^bool WarcraftWorld::warriorMarch()$/;"	f	class:warcraft::WarcraftWorld
+warriorMarch	WarcraftWorld.cc	/^void WarcraftWorld::warriorMarch(Headquarters * headquarters)$/;"	f	class:warcraft::WarcraftWorld
+wd	Mylogger.cc	/^namespace wd$/;"	n	file:
+wd	Mylogger.h	/^namespace wd$/;"	n
+~GameConfig	GameConfig.h	/^	~GameConfig(){	cout << "~GameConfig()" << endl;	}$/;"	f	class:warcraft::GameConfig
+~Headquarters	Headquarters.h	/^	virtual ~Headquarters() {	LogDebug("~Headquarters()");	}$/;"	f	class:warcraft::Headquarters
+~Mylogger	Mylogger.cc	/^Mylogger::~Mylogger() $/;"	f	class:wd::Mylogger
+~WarcraftWorld	WarcraftWorld.h	/^	~WarcraftWorld() $/;"	f	class:warcraft::WarcraftWorld
+~Warrior	Warrior.h	/^	virtual ~Warrior(){	LogDebug("~Warrior"); }$/;"	f	class:warcraft::Warrior
+~WarriorView	Warrior.h	/^	virtual ~WarriorView() {}$/;"	f	class:warcraft::WarriorView
+~Weapon	Weapon.h	/^	~Weapon() {	 \/*LogDebug("~LogDebug()");	*\/}$/;"	f	class:warcraft::Weapon
+~WeaponView	Weapon.h	/^	virtual ~WeaponView() {		\/*LogDebug("~WeapView()");*\/	}$/;"	f	class:warcraft::WeaponView

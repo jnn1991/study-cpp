@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <map>
+#include <unordered_map>
 using std::cout;
 using std::endl;
 using std::string;
@@ -10,7 +10,7 @@ using std::ofstream;
 using std::istringstream;
 using std::ostringstream;
 using std::stringstream;
-using std::map;
+using std::unordered_map;
 
 class Dictionary
 {
@@ -29,16 +29,11 @@ public:
             {
                 if(!isalpha(c))
                 {
-                    c=' ';
+                    c='\0';
                 }
                 c=tolower(c);
             }
-            int index=0;
-            while( (index = word.find(' ',index)) != string::npos )
-            {
-                word.erase(index,1);
-            }
-            if(word=="" )
+            if(word=="" && word ==" ")
             {
                 continue;
             }else{
@@ -64,7 +59,7 @@ public:
     }
 
 private:
-    map<string,size_t> word_count;
+    unordered_map<string,size_t> word_count;
     string word;
     ifstream ifs;
     ofstream ofs;
